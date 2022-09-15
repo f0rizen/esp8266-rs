@@ -9,4 +9,4 @@ run `flash.sh` script
 - `Linux Distro`
 - Script assumes device is `/dev/ttyUSB0` (change if neccessary).
 
-https://github.com/coenraadhuman/blinky-esp8266-rust
+[coenraadhuman/blinky-esp8266-rust](https://github.com/coenraadhuman/blinky-esp8266-rust)
