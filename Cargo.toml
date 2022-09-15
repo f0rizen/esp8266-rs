@@ -1,0 +1,11 @@
+[package]
+name = "esp8266-rs"
+version = "0.1.0"
+authors = ["Coenraad Human <coen.human@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+xtensa-lx    = "0.3.0"
+embedded-hal = { version = "0.2.7", features = ["unproven"] }
+esp8266-hal  = "0.4.0"
+panic-halt   = "0.2.0"

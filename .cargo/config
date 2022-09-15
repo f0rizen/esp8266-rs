@@ -1,0 +1,11 @@
+[target.xtensa-esp8266-none-elf]
+rustflags = [
+  "-C", "link-arg=-Wl,-Tlink.x",
+  "-C", "link-arg=-nostartfiles",
+]
+
+[build]
+target = "xtensa-esp8266-none-elf"
+
+[unstable]
+build-std = ["core"]
