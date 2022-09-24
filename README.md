@@ -2,7 +2,9 @@
 Example blinky project for ESP8266 using Rust Programming Language
 
 ## Flashing
-run `flash.sh` script
+```sh
+./flash.sh
+```
 
 ### Requirements
 - `Docker`
